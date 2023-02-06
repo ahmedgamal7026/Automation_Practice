@@ -13,6 +13,7 @@ import org.testng.Assert;
 
 
 
+
 public class AmazonPage extends PageBase {
 
 	public AmazonPage(WebDriver driver) {
