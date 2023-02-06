@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_19">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -8,14 +8,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="19" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:3.8.6" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.8.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok-maven-plugin:1.18.20.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.20" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.sonatype.plexus:plexus-build-api:0.0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:1.5.8" level="project" />
     <orderEntry type="library" name="Maven: tech.grasshopper:extent-pdf-report:2.9.1" level="project" />
     <orderEntry type="library" name="Maven: tech.grasshopper:cucumber-pdf-report:2.11.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.pdfbox:pdfbox:2.0.26" level="project" />
@@ -24,6 +23,7 @@
     <orderEntry type="library" name="Maven: de.erichseifert.vectorgraphics2d:VectorGraphics2D:0.13" level="project" />
     <orderEntry type="library" name="Maven: de.rototor.pdfbox:graphics2d:0.30" level="project" />
     <orderEntry type="library" name="Maven: com.madgag:animated-gif-lib:1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.28" level="project" />
     <orderEntry type="library" name="Maven: tech.grasshopper:table-layout:1.5.1" level="project" />
     <orderEntry type="library" name="Maven: tech.grasshopper:rest-assured-cucumber-pdf-report:1.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.15.3" level="project" />
@@ -53,11 +53,10 @@
     <orderEntry type="library" name="Maven: io.cucumber:cucumber-java:7.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:cucumber-testng:7.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.cucumber:gherkin:25.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.testng:testng:6.1.1" level="project" />
-    <orderEntry type="library" name="Maven: junit:junit:3.8.1" level="project" />
-    <orderEntry type="library" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
-    <orderEntry type="library" name="Maven: com.beust:jcommander:1.12" level="project" />
-    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.6" level="project" />
+    <orderEntry type="library" name="Maven: org.testng:testng:7.7.1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
+    <orderEntry type="library" name="Maven: com.beust:jcommander:1.82" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.webjars:jquery:3.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:4.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:4.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:4.4.0" level="project" />
@@ -128,7 +127,6 @@
     <orderEntry type="library" name="Maven: stax:stax-api:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.github.virtuald:curvesapi:1.04" level="project" />
     <orderEntry type="library" name="Maven: io.github.bonigarcia:webdrivermanager:5.3.0" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
     <orderEntry type="library" name="Maven: com.github.docker-java:docker-java:3.2.13" level="project" />
     <orderEntry type="library" name="Maven: com.github.docker-java:docker-java-core:3.2.13" level="project" />
     <orderEntry type="library" name="Maven: com.github.docker-java:docker-java-api:3.2.13" level="project" />
@@ -157,6 +155,7 @@
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-cipher:2.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven:maven-builder-support:3.8.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven:maven-repository-metadata:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:3.8.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven:maven-model-builder:3.8.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven:maven-resolver-provider:3.8.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.resolver:maven-resolver-impl:1.6.3" level="project" />
@@ -179,6 +178,7 @@
     <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-decoration-model:1.7.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-core:1.7" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-30" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:3.8.1" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.4" level="project" />
     <orderEntry type="library" name="Maven: xmlunit:xmlunit:1.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-site-renderer:1.7.4" level="project" />
