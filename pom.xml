@@ -140,12 +140,12 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M7</version>
         <configuration>
-          <suiteXmlFiles>-->
+          <suiteXmlFiles>
             <suiteXmlFile>RunFromCMDwithMaven.xml</suiteXmlFile>
           </suiteXmlFiles>
 
         </configuration>
-      </plugin> -->
+      </plugin>  -->
 
        <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
