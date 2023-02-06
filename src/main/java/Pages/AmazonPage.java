@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 
+
 public class AmazonPage extends PageBase {
 
 	public AmazonPage(WebDriver driver) {
