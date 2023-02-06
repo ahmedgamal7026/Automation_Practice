@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-05T15:06:28 EET" name="Test suite" finished-at="2023-02-05T15:06:56 EET" duration-ms="28857">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Open_Vacancies_Tab_TC@6b88ca8c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-02-05T15:06:28 EET" name="Chrome test" finished-at="2023-02-05T15:06:56 EET" duration-ms="28857">
+      <class name="Tests.Open_Vacancies_Tab_TC">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Tests.Open_Vacancies_Tab_TC@6b88ca8c]" started-at="2023-02-05T15:06:28 EET" name="setUpClass" finished-at="2023-02-05T15:06:28 EET" duration-ms="493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@79c7532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:Tests.Open_Vacancies_Tab_TC@6b88ca8c]" started-at="2023-02-05T15:06:29 EET" name="Setup" finished-at="2023-02-05T15:06:34 EET" duration-ms="5168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Open_Vacanies_Tab(java.lang.String,java.lang.String)[pri:0, instance:Tests.Open_Vacancies_Tab_TC@6b88ca8c]" started-at="2023-02-05T15:06:35 EET" name="Open_Vacanies_Tab" data-provider="data" finished-at="2023-02-05T15:06:55 EET" duration-ms="20996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Vacanies_Tab -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Tests.Open_Vacancies_Tab_TC@6b88ca8c]" started-at="2023-02-05T15:06:56 EET" name="TearDown" finished-at="2023-02-05T15:06:56 EET" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Tests.Open_Vacancies_Tab_TC@6b88ca8c]" started-at="2023-02-05T15:06:56 EET" name="tearDownClass" finished-at="2023-02-05T15:06:56 EET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Tests.Open_Vacancies_Tab_TC -->
+    </test> <!-- Chrome test -->
+  </suite> <!-- Test suite -->
+</testng-results>

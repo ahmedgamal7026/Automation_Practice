@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test suite" duration-ms="25667" started-at="2023-02-05T15:08:44Z" finished-at="2023-02-05T15:09:09Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group>
+    </groups>
+    <test name="Chrome test" duration-ms="25667" started-at="2023-02-05T15:08:44Z" finished-at="2023-02-05T15:09:09Z">
+      <class name="Tests.Open_Vacancies_Tab_TC">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)" name="setUpClass" is-config="true" duration-ms="657" started-at="2023-02-05T15:08:44Z" finished-at="2023-02-05T15:08:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5f282abb]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Setup(java.lang.String)" name="Setup" is-config="true" duration-ms="6494" started-at="2023-02-05T15:08:45Z" finished-at="2023-02-05T15:08:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Open_Vacanies_Tab(java.lang.String, java.lang.String)" name="Open_Vacanies_Tab" duration-ms="16002" started-at="2023-02-05T15:08:52Z" finished-at="2023-02-05T15:09:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="TearDown()" name="TearDown" is-config="true" duration-ms="1457" started-at="2023-02-05T15:09:08Z" finished-at="2023-02-05T15:09:09Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDownClass()" name="tearDownClass" is-config="true" duration-ms="15" started-at="2023-02-05T15:09:09Z" finished-at="2023-02-05T15:09:09Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
