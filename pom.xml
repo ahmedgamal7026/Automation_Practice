@@ -19,15 +19,6 @@
 	<dependencies>
 	
 	
-	<!-- https://mvnrepository.com/artifact/org.apache.maven/maven-artifact -->
-<dependency>
-    <groupId>org.apache.maven</groupId>
-    <artifactId>maven-artifact</artifactId>
-    <version>3.8.6</version>
-</dependency>
-
-	
-	
 	<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok-maven-plugin -->
 <dependency>
     <groupId>org.projectlombok</groupId>
@@ -37,6 +28,11 @@
 </dependency>
 
 	
+	
+	
+
+
+
 <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 <dependency> 
    <groupId>tech.grasshopper</groupId>
@@ -51,6 +47,9 @@
     <artifactId>extentreports</artifactId>
     <version>4.0.9</version>
 </dependency>
+
+
+
 
 
 		<dependency>
@@ -85,16 +84,23 @@
 
 
 
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>
+			<scope>test</scope>
+		</dependency>
+
+
+
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>6.9.10</version>
+    <version>7.7.1</version>
     <scope>compile</scope>
 </dependency>
-
-
-
 
 
 
@@ -132,7 +138,17 @@
     <version>2.17.3</version>
 </dependency>
 
+
+
+
+
 	</dependencies>
+	
+	
+	
+	
+	
+	
 	
 	<build>
 			
@@ -142,16 +158,13 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M7</version>
         <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>Testng.xml</suiteXmlFile>-->
+          <suiteXmlFiles>-->
+            <suiteXmlFile>RunFromCMDwithMaven.xml</suiteXmlFile>
           </suiteXmlFiles>
 
         </configuration>
-     </plugin>
-     
-      
-      
-      
+      </plugin>
+
        <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -161,9 +174,10 @@
                 </configuration>
             </plugin>
       
-      
-      
+ 
 </plugins>
-				 
+							 
 		</build>
+	
+	
 </project>
