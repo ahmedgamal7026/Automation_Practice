@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="LPCAIQ1099" name="Tests.Open_Vacancies_Tab_TC" tests="1" failures="0" timestamp="5 Feb 2023 13:09:09 GMT" time="25.667" errors="0">
-  <testcase name="Open_Vacanies_Tab" time="16.002" classname="Tests.Open_Vacancies_Tab_TC"/>
-</testsuite>

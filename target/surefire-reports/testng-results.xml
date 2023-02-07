@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Test suite" duration-ms="25667" started-at="2023-02-05T15:08:44Z" finished-at="2023-02-05T15:09:09Z">
+  <suite started-at="2023-02-07T09:18:28Z" name="All Test Suite" finished-at="2023-02-07T09:18:53Z" duration-ms="25040">
     <groups>
       <group name="cucumber">
-        <method signature="io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Valid_LoginTC@33fe57a9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Chrome test" duration-ms="25667" started-at="2023-02-05T15:08:44Z" finished-at="2023-02-05T15:09:09Z">
-      <class name="Tests.Open_Vacancies_Tab_TC">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)" name="setUpClass" is-config="true" duration-ms="657" started-at="2023-02-05T15:08:44Z" finished-at="2023-02-05T15:08:44Z">
+    <test started-at="2023-02-07T09:18:28Z" name="Valid" finished-at="2023-02-07T09:18:53Z" duration-ms="25040">
+      <class name="Tests.Valid_LoginTC">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Tests.Valid_LoginTC@33fe57a9]" started-at="2023-02-07T11:18:28Z" name="setUpClass" finished-at="2023-02-07T11:18:28Z" duration-ms="319" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5f282abb]]>
+                <![CDATA[org.testng.TestRunner@604c5de8]]>
               </value>
             </param>
           </params>
-        </test-method>
-        <test-method status="PASS" signature="Setup(java.lang.String)" name="Setup" is-config="true" duration-ms="6494" started-at="2023-02-05T15:08:45Z" finished-at="2023-02-05T15:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:Tests.Valid_LoginTC@33fe57a9]" started-at="2023-02-07T11:18:29Z" name="Setup" finished-at="2023-02-07T11:18:33Z" duration-ms="4055" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[Chrome]]>
               </value>
             </param>
           </params>
-        </test-method>
-        <test-method status="PASS" signature="Open_Vacanies_Tab(java.lang.String, java.lang.String)" name="Open_Vacanies_Tab" duration-ms="16002" started-at="2023-02-05T15:08:52Z" finished-at="2023-02-05T15:09:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ValidLogin(java.lang.String, java.lang.String)[pri:0, instance:Tests.Valid_LoginTC@33fe57a9]" started-at="2023-02-07T11:18:33Z" name="ValidLogin" data-provider="data" finished-at="2023-02-07T11:18:52Z" duration-ms="18696" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,12 +45,18 @@
               </value>
             </param>
           </params>
-        </test-method>
-        <test-method status="PASS" signature="TearDown()" name="TearDown" is-config="true" duration-ms="1457" started-at="2023-02-05T15:09:08Z" finished-at="2023-02-05T15:09:09Z">
-        </test-method>
-        <test-method status="PASS" signature="tearDownClass()" name="tearDownClass" is-config="true" duration-ms="15" started-at="2023-02-05T15:09:09Z" finished-at="2023-02-05T15:09:09Z">
-        </test-method>
-      </class>
-    </test>
-  </suite>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Tests.Valid_LoginTC@33fe57a9]" started-at="2023-02-07T11:18:52Z" name="TearDown" finished-at="2023-02-07T11:18:53Z" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Tests.Valid_LoginTC@33fe57a9]" started-at="2023-02-07T11:18:53Z" name="tearDownClass" finished-at="2023-02-07T11:18:53Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Tests.Valid_LoginTC -->
+    </test> <!-- Valid -->
+  </suite> <!-- All Test Suite -->
 </testng-results>
